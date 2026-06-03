@@ -1,6 +1,32 @@
 # Gobernanza y proteccion de ramas en GitHub
 
-Este documento explica como configurar el repositorio remoto cuando no hay automatizacion disponible desde la terminal local.
+Este documento explica como configurar el repositorio remoto y sus reglas de proteccion.
+
+## Estado aplicado
+
+En el repositorio `https://github.com/anndreloopez012/campuslands-devs-typescript` se aplico:
+
+- `dev` como rama por defecto.
+- Proteccion de `main`.
+- Proteccion de `dev`.
+- Pull Request obligatorio.
+- Una aprobacion obligatoria.
+- Conversaciones resueltas antes de merge.
+- Force push desactivado.
+- Eliminacion de ramas protegidas desactivada.
+
+## Limitacion de cuenta personal
+
+GitHub solo permite restringir exactamente que usuarios o equipos pueden hacer push/merge a ramas protegidas cuando el repositorio pertenece a una organizacion.
+
+En una cuenta personal, los estudiantes con permiso `Write` pueden crear ramas y abrir Pull Requests, pero GitHub no ofrece el mismo control granular para impedirles completamente el merge si tambien conservan permisos de escritura.
+
+Para cumplir la regla de "los estudiantes no pueden hacer merge a `dev` ni `main`" de forma estricta:
+
+1. Usar un repositorio dentro de una organizacion.
+2. Crear un equipo de instructores/administradores.
+3. Aplicar `Restrict who can push to matching branches` para permitir solo al propietario o equipo instructor.
+4. Agregar estudiantes con permisos suficientes para trabajar en ramas, pero sin permisos administrativos sobre reglas.
 
 ## Crear repositorio remoto
 

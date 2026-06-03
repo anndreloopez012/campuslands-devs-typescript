@@ -3,6 +3,7 @@
 ## Repositorio
 
 - Nombre: `campuslands-devs-typescript`
+- URL remoto: `https://github.com/anndreloopez012/campuslands-devs-typescript`
 - Rama estable: `main`
 - Rama de desarrollo: `dev`
 - Commit de contenido inicial: `feat: add typescript student bootcamp repository`
@@ -67,10 +68,15 @@ Las respuestas estan comentadas, usan tipado estricto y muestran buenas practica
 
 - `main`: creada como rama estable base.
 - `dev`: creada como rama principal de desarrollo con todo el contenido inicial.
+- `dev`: configurada como rama por defecto en GitHub.
 
-No se pudo crear el repositorio remoto ni aplicar reglas de proteccion automaticamente porque en el entorno local no esta instalado GitHub CLI, no hay `GITHUB_TOKEN` disponible y las herramientas de GitHub de la app solo exponen acciones sobre repositorios existentes.
+## Publicacion en GitHub
 
-La configuracion manual de proteccion de ramas esta documentada en `docs/github-governance.md`.
+- Repositorio remoto creado en GitHub.
+- Ramas `main` y `dev` publicadas.
+- Proteccion de ramas aplicada para exigir Pull Request, una aprobacion, resolucion de conversaciones, bloqueo de force push y bloqueo de eliminacion.
+
+Nota tecnica: GitHub rechazo la restriccion granular de usuarios en este repositorio porque esta creado bajo una cuenta personal. GitHub solo permite restricciones por usuarios/equipos en repositorios de organizacion. Para impedir tambien que estudiantes con permiso `Write` puedan mezclar Pull Requests, mover el repositorio a una organizacion y aplicar las restricciones indicadas en `docs/github-governance.md`.
 
 ## Recomendaciones para futuras ampliaciones
 
