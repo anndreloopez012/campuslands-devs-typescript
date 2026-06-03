@@ -1,0 +1,17 @@
+{
+  "name": "campuslands-devs-typescript",
+  "version": "1.0.0",
+  "description": "Repositorio educativo de TypeScript para estudiantes Campuslands.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit",
+    "dev": "tsx",
+    "check": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
