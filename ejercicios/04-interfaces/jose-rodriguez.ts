@@ -1,41 +1,57 @@
 export {};
 
-// Ejercicio 05: Arrays - comida (Versión TypeScript)
-
-console.log("Ejercicio 05: Arrays");
-
-// 1. CREAR UN ARREGLO 
-// Definimos el tipo como 'string[]' para asegurar que solo contenga texto
-const menu: string[] = ["Pizza", "Hamburgesa", "Tacos"];
-
-// 2. AGREGAR ELEMENTOS
-menu.push("Pasta");
-menu.push("Ensalada");
-menu.push("Carne");
-
-// 3. CONSULTAR POSICIONES (INDICES)
-// TypeScript nos ayuda a identificar que estos valores son 'strings'
-const primerPlato: string = menu[1]; 
-const tercerPlato: string = menu[4]; 
-
-console.log("=== CONSULTA DE POSICIONES ===");
-console.log(`El segundo elemento (índice 1) es: ${primerPlato}`); // Nota: el índice 1 es el segundo elemento
-console.log(`El quinto elemento (índice 4) es: ${tercerPlato}`); 
-console.log(`Total de elementos en el menú: ${menu.length}`); 
-console.log("---------------------------------------\n");
-
-// 4. RECORRER EL ARREGLO (LOOPS/BUCLES)
-
-console.log("=== RECORRIENDO EL MENU (Forma Moderna: for...Of) ===");
-// TypeScript infiere automáticamente que 'platillo' es de tipo 'string'
-for (const platillo of menu) {
-    console.log(`🍽️ Platillo disponible: ${platillo}`);
+// 1. DEFINICIÓN DEL CONTRATO (INTERFAZ)
+interface PersonajeRPG {
+    nombre: string;          // Obligatoria
+    clase: string;           // Obligatoria
+    nivel: number;           // Obligatoria
+    puntosVida: number;      // Obligatoria
+    gremio?: string;         // OPCIONAL (El signo '?' indica que puede no estar)
 }
 
-console.log("-----------------------------------------\n");
+// 2. CREACIÓN DE OBJETOS QUE CUMPLEN EL CONTRATO
+// Personaje completo (con todas las propiedades)
+const personaje1: PersonajeRPG = {
+    nombre: "Arthas",
+    clase: "Paladín",
+    nivel: 12,
+    puntosVida: 150,
+    gremio: "Alianza de Plata" // Propiedad opcional presente
+};
 
-console.log("=== RECORRIENDO EL MENU (forma clasica con Indice: for) ===");
-// 'i' es definido como 'number' automáticamente
-for (let i: number = 0; i < menu.length; i++) {
-    console.log(`Posición ${i} -> Opción: ${menu[i]}`);
-}
+// Personaje sin gremio (TypeScript lo permite gracias al '?')
+const personaje2: PersonajeRPG = {
+    nombre: "Sylvanas",
+    clase: "Cazadora",
+    nivel: 15,
+    puntosVida: 110
+    // gremio está ausente y es perfectamente válido
+};
+
+const personaje3: PersonajeRPG = {
+    nombre: "Tiffin",
+    clase: "Pícaro",
+    nivel: 5,
+    puntosVida: 75
+    // Tampoco tiene gremio
+};
+
+// 3. AGRUPACIÓN EN UNA LISTA (ARRAY DE PERSONAJES)
+const listaPersonajes: PersonajeRPG[] = [personaje1, personaje2, personaje3];
+
+// 4. RETO EXTRA: FILTRAR PARA UNA MISIÓN DIFÍCIL (Nivel >= 10)
+const personajesMisionDificil = listaPersonajes.filter(personaje => personaje.nivel >= 10);
+
+// ==========================================
+// RESULTADO ESPERADO EN CONSOLA
+// ==========================================
+console.log("=== TODOS LOS PERSONAJES VÁLIDOS ===");
+listaPersonajes.forEach(p => {
+    // Usamos el operador ?? para dar un texto por defecto si el gremio es undefined
+    console.log(`- ${p.nombre} (${p.clase}) | Nivel: ${p.nivel} | Gremio: ${p.gremio ?? "Ninguno"}`);
+});
+
+console.log("\n⚔️ PERSONAJES LISTOS PARA LA MISIÓN DIFÍCIL (NIVEL 10+) ⚔️");
+personajesMisionDificil.forEach(p => {
+    console.log(`- ¡${p.nombre} el ${p.clase} está listo con nivel ${p.nivel}!`);
+});
