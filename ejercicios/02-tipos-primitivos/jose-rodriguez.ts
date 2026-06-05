@@ -1,3 +1,5 @@
+export {};
+
 // Ejercicio 02: Tipos de datos - motos
 // Completa el codigo siguiendo las instrucciones del README.md.
 
