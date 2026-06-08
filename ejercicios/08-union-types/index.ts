@@ -17,8 +17,8 @@ type superDeportivo = {
   tipo: "hiperdeportivo";
   marca: string;
   modelo: string;
-  caballosFuerza: number; // en caballos de fuerza
-  velocidadMaxima: number; // en km/h
+  caballosFuerza: number; 
+  velocidadMaxima: number; 
   unidadesProducidas: number;
 };
 
