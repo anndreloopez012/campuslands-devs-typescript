@@ -15,5 +15,5 @@ if (Kilometraje > 3000) {
 const resumen_moto: string = 'La moto es una ' + modelo_moto 
     + 'de una cilindrada de ' + cilindrada + ' cc, y tiene un kilometraje de ' + Kilometraje + ' km.';
 
-console.log(resumen_moto);      
+ console.log(resumen_moto);      
 
