@@ -13,5 +13,5 @@
     "allowImportingTsExtensions": true,
     "noEmit": true
   },
-  "include": ["ejercicios/**/*.ts", "respuestas/**/*.ts"]
+  "include": ["ejercicios/**/*.ts", "respuestas/**/*.ts", "ejercicios/01-introduccion-typescript/evelyn-barrios01/index.ts"]
 }
