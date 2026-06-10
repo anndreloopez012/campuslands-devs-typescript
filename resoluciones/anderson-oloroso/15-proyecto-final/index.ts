@@ -16,6 +16,10 @@ interface datosRPG {
   puntosVida: number;
 }
 
+function buscarId<T extends { id: string }>(array: T[], id: string): T | undefined {
+  return array.find(dato => dato.id === id);
+}
+
 class gestorRPG {
   cargarRPG(): Promise<datosRPG[]> {
     return new Promise((resolve, reject) => {
@@ -73,7 +77,41 @@ class gestorRPG {
     }
   }
 
-  async subirNivel(nivel: number) {
+  async subirNivel(id: string) : Promise< string | undefined> {
     const videojuegos = await this.cargarRPG();
+    const juego = buscarId(videojuegos, id)
+
+    if (!juego) return undefined;
+    juego.nivel += 1
+    return `El nivel aumenó en ${juego.nombre}, nuevo nivel: ${juego.nivel}`
   }
+
+  async registrarPersonajes(arreglo: datosRPG) : Promise<string | undefined >{
+    const videojuegos = this.cargarRPG();
+    try{
+      if(!videojuegos) undefined
+      return `Dato agregado exitosamente`
+    }catch(error){
+      return(error.message)
+    }
+
+  }
+} 
+
+let nuevoRPG: datosRPG[] = []
+
+nuevoRPG = [{id:"P-04",nombre:"Silente Lyra",clase:"Mago",nivel:34,puntosVida:287}]
+
+async function main() {
+  const gestor = new gestorRPG();
+
+  await gestor.todosLosJuegos();
+
+  await gestor.filtro("Mago");
+
+  const resultado = await gestor.subirNivel("P-04");
+  if (resultado) console.log(resultado);
 }
+
+main()
+
