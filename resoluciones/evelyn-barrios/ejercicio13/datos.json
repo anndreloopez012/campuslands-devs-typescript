@@ -1,0 +1,20 @@
+[
+    {
+      "ciudad": "Medellin",
+      "pais": "Colombia",
+      "presupuestoUsd": 420,
+      "actividades": ["turismo urbano", "comida", "parapente"]
+    },
+    {
+      "ciudad": "Cusco",
+      "pais": "Peru",
+      "presupuestoUsd": 650,
+      "actividades": ["arquitectura", "historia", "senderismo"]
+    },
+    {
+      "ciudad": "Ciudad de Mexico",
+      "pais": "Mexico",
+      "presupuestoUsd": 580,
+      "actividades": ["museos", "comida", "musica"]
+    }
+  ]
