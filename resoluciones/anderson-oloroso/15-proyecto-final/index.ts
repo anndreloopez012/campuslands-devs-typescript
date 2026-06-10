@@ -6,7 +6,7 @@ import datos from "./datos.json" with { type: "json" };
 // TODO: integra interfaces, clases, generics y async/await.
 console.log("=========== GESTOR DE VIDEOJUEGOS RPG ========== ");
 
-type Clase = "Mago" | "Guerrero" | "Arquero" | "Asesino" | "Clérigo";
+type Clase = "Maga" | "Guerrero" | "Arquero" | "Asesino" | "Clérigo";
 
 interface datosRPG {
   id: string;
@@ -16,8 +16,11 @@ interface datosRPG {
   puntosVida: number;
 }
 
-function buscarId<T extends { id: string }>(array: T[], id: string): T | undefined {
-  return array.find(dato => dato.id === id);
+function buscarId<T extends { id: string }>(
+  array: T[],
+  id: string,
+): T | undefined {
+  return array.find((dato) => dato.id === id);
 }
 
 class gestorRPG {
@@ -55,7 +58,7 @@ class gestorRPG {
     }
   }
 
-  async filtro(clase: string) {
+  async filtro(clase: Clase) {
     const xGeneros: datosRPG[] = [];
     try {
       console.log("Filtrando peliculas por genero...");
@@ -77,41 +80,48 @@ class gestorRPG {
     }
   }
 
-  async subirNivel(id: string) : Promise< string | undefined> {
+  async subirNivel(id: string): Promise<string | undefined> {
     const videojuegos = await this.cargarRPG();
-    const juego = buscarId(videojuegos, id)
+    const juego = buscarId(videojuegos, id);
 
     if (!juego) return undefined;
-    juego.nivel += 1
-    return `El nivel aumenó en ${juego.nombre}, nuevo nivel: ${juego.nivel}`
+    console.log("Nivel anterior: " + juego.nivel);
+    juego.nivel += 1;
+    return `El nivel aumentó en ${juego.nombre}, nuevo nivel: ${juego.nivel}`;
   }
 
-  async registrarPersonajes(arreglo: datosRPG) : Promise<string | undefined >{
-    const videojuegos = this.cargarRPG();
-    try{
-      if(!videojuegos) undefined
-      return `Dato agregado exitosamente`
-    }catch(error){
-      return(error.message)
+  async registrarPersonajes(arreglo: datosRPG[]): Promise<string | undefined> {
+    try {
+      const videojuegos = await this.cargarRPG();
+      videojuegos.push(...arreglo);
+      return `Datos agregados exitosamente`;
+    } catch (error) {
+      console.error(error);
     }
-
   }
-} 
+}
 
-let nuevoRPG: datosRPG[] = []
+let nuevoRPG: datosRPG[] = [];
 
-nuevoRPG = [{id:"P-04",nombre:"Silente Lyra",clase:"Mago",nivel:34,puntosVida:287}]
+nuevoRPG = [
+  {
+    id: "P-04",
+    nombre: "Silente Lyra",
+    clase: "Maga",
+    nivel: 34,
+    puntosVida: 287,
+  },
+];
 
 async function main() {
   const gestor = new gestorRPG();
-
+  await gestor.registrarPersonajes(nuevoRPG);
   await gestor.todosLosJuegos();
 
-  await gestor.filtro("Mago");
+  await gestor.filtro("Maga");
 
   const resultado = await gestor.subirNivel("P-04");
   if (resultado) console.log(resultado);
 }
 
-main()
-
+main();
