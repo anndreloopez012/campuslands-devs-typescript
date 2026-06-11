@@ -1,5 +1,3 @@
-import destinos from "../ejercicios/13-modulos/datos.json" with { type: "json" };
-
 type Destino = {
   ciudad: string;
   pais: string;
