@@ -1,0 +1,5 @@
+[
+  { "id": 1, "titulo": "Nebula 9", "genero": "ciencia ficcion", "rating": 4.7 },
+  { "id": 2, "titulo": "Gol Final", "genero": "deportes", "rating": 4.1 },
+  { "id": 3, "titulo": "Motores de Acero", "genero": "accion", "rating": 4.4 }
+]
