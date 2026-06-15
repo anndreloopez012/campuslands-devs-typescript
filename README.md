@@ -42,16 +42,16 @@ tsc --version
 
 ## Como ejecutar ejercicios
 
-Cada ejercicio contiene un `index.ts`. Ejecuta un ejercicio con:
+Cada ejercicio contiene un `index.ts`. Ejecuta un ejercicio basico con:
 
 ```bash
 npm run dev -- ejercicios/01-introduccion-typescript/index.ts
 ```
 
-Para ejecutar una respuesta oficial:
+Ejecuta un ejercicio intermedio con:
 
 ```bash
-npm run dev -- respuestas/01-respuesta.ts
+npm run dev -- intermedio/ejercicios/01-dashboard-kd-shooter/index.ts
 ```
 
 ## Como compilar TypeScript
@@ -93,6 +93,20 @@ Los estudiantes deben abrir Pull Request hacia `dev`. Nadie debe mezclar cambios
 6. Describe que ejercicios resolviste y como probaste tu codigo.
 7. Solicita revision.
 
+Las entregas de estudiantes no deben modificar los archivos base. Cada respuesta debe ir en una carpeta personal dentro de `resoluciones`.
+
+Ejemplo basico:
+
+```text
+ejercicios/01-introduccion-typescript/resoluciones/juan-perez/index.ts
+```
+
+Ejemplo intermedio:
+
+```text
+intermedio/ejercicios/01-dashboard-kd-shooter/resoluciones/juan-perez/index.ts
+```
+
 ## Buenas practicas
 
 - Usa nombres claros y descriptivos.
@@ -123,6 +137,7 @@ Los estudiantes deben abrir Pull Request hacia `dev`. Nadie debe mezclar cambios
 ├── .vscode/
 ├── docs/
 ├── ejercicios/
+├── intermedio/
 └── respuestas/
 ```
 
@@ -145,6 +160,15 @@ Los estudiantes deben abrir Pull Request hacia `dev`. Nadie debe mezclar cambios
 | 13 | [Modulos](./ejercicios/13-modulos) | Aplicacion de viajes | separar responsabilidades usando `export` e `import` |
 | 14 | [Async/Await](./ejercicios/14-async-await) | Consulta de API de peliculas | trabajar con promesas, funciones asincronas y manejo de errores |
 | 15 | [Proyecto Final Integrador](./ejercicios/15-proyecto-final) | Gestor de personajes para videojuego RPG con TypeScript | integrar tipos, interfaces, clases, generics, modulos y asincronia |
+
+## Nivel intermedio
+
+El nivel intermedio agrega 80 ejercicios progresivos en [intermedio/](./intermedio). La dificultad sube por bloques:
+
+- 01-20: interfaces, aliases, arrays tipados, filtros, rankings y validaciones.
+- 21-40: reglas de negocio, union types, Record, Map, Set, clases y generics.
+- 41-60: fechas, estados, reportes, async/await y errores tipados.
+- 61-80: reducers, state machines, persistencia simulada y mini sistemas integradores.
 
 ## Gobernanza
 
