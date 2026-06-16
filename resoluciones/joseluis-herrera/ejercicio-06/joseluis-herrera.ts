@@ -1,33 +1,31 @@
+// alias para los equipos
 type Equipo = {
   nombre: string;
-  miembros: number;
-  puntos: number;
   victorias: number;
   empates: number;
-  bonus_ofensivo: number;
+  bonus: number;
 };
 
-function calcular_puntos(victorias: number, empates: number, bonus_ofensivo: number): number {
-  return victorias * 3 + empates + bonus_ofensivo;
+function calcularPuntos(victorias: number, empates: number, bonus: number): number {
+  const puntosPorVictorias = victorias * 3;
+  const puntosPorEmpates = empates * 1;
+  return puntosPorVictorias + puntosPorEmpates + bonus;
 }
 
-function mejor_puntuacion(equipo: Equipo): number {
-  return calcular_puntos(equipo.victorias, equipo.empates, equipo.bonus_ofensivo);
+function obtenerPuntajeEquipo(equipo: Equipo): number {
+  return calcularPuntos(equipo.victorias, equipo.empates, equipo.bonus);
 }
 
-function lider(equipos: Equipo[]): Equipo {
-  return equipos.reduce((liderActual, equipo) =>
-    mejor_puntuacion(equipo) > mejor_puntuacion(liderActual) ? equipo : liderActual
-  );
-}
 
-const Clasificacion: Equipo[] = [
-  { nombre: "Rayos del Sur", miembros: 11, puntos: 0, victorias: 6, empates: 3, bonus_ofensivo: 3 },
-  { nombre: "Deportivo Real", miembros: 11, puntos: 0, victorias: 10, empates: 1, bonus_ofensivo: 5 },
-  { nombre: "Atlas City", miembros: 11, puntos: 0, victorias: 5, empates: 5, bonus_ofensivo: 0 }
+const tabla: Equipo[] = [
+  { nombre: "Campus Futsal", victorias: 8, empates: 2, bonus: 4 },
+  { nombre: "Norte FC", victorias: 7, empates: 4, bonus: 2 },
+  { nombre: "Titanes", victorias: 9, empates: 0, bonus: 1 },
 ];
 
-const obtenerLider: Equipo = lider(Clasificacion);
+console.log("--- TABLA DE PUNTAJES ---");
 
-// Accedemos a las propiedades para que el log sea legible
-console.log(`El líder es ${obtenerLider.nombre} con ${mejor_puntuacion(obtenerLider)} puntos.`);
+tabla.forEach((equipo) => {
+  const puntosTotales = obtenerPuntajeEquipo(equipo);
+  console.log(`Equipo: ${equipo.nombre} | Puntos Totales: ${puntosTotales}`);
+});
