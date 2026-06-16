@@ -1,9 +1,5 @@
 export {};
 
-
-
-// TODO: crea funciones para calcular puntos.
-
 type Equipo = {
   nombre: string;
   miembros: number;
