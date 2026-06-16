@@ -37,5 +37,3 @@ const obtenerLider: Equipo = lider(Clasificacion);
 
 // Accedemos a las propiedades para que el log sea legible
 console.log(`El líder es ${obtenerLider.nombre} con ${mejor_puntuacion(obtenerLider)} puntos.`);
-
-// hola
