@@ -1,35 +1,33 @@
-# Ejercicio 15: Proyecto Final Integrador
+# Ejercicio 01: Introduccion a TypeScript
 
-**Contexto:** Gestor de personajes para videojuego RPG con TypeScript
+**Contexto:** Videojuegos Shooter
 
 ## Objetivo
 
-integrar tipos, interfaces, clases, generics, modulos y asincronia.
+conocer la sintaxis basica de TypeScript y ejecutar un archivo tipado.
 
 ## Instrucciones
 
-Construye un gestor de personajes RPG que permita registrar personajes, listar por clase, subir nivel y cargar datos iniciales.
+Crea variables para representar un jugador de shooter: nombre, arma principal, municion disponible y si tiene escudo activo. Muestra un resumen por consola.
 
 Trabaja en `index.ts` y ejecuta el archivo para validar tu avance.
 
 ## Pistas
 
-- Define interfaces para los contratos principales.
-- Usa clases para encapsular el gestor.
-- Usa generics para busquedas reutilizables.
-- Usa async/await para simular carga inicial.
+- Usa `const` cuando el valor no cambie.
+- Agrega tipos explicitos a cada variable.
+- Ejecuta el archivo con `npm run dev -- ejercicios/01-introduccion-typescript/index.ts`.
 
 ## Restricciones
 
 - No uses `any`.
-- Separa responsabilidades si agregas archivos extra.
-- Valida que el nivel no sea negativo.
-- El proyecto debe compilar con `strict`.
+- No copies codigo de la respuesta.
+- El archivo debe compilar sin errores.
 
 ## Reto Extra
 
-Agrega rareza de equipo, inventario y calculo de poder total.
+Agrega una variable para el mapa actual y otra para el modo de juego.
 
 ## Resultado Esperado
 
-El gestor registra personajes, los lista, actualiza niveles y muestra un resumen final.
+La consola muestra un resumen legible del jugador, su arma, municion y estado de escudo.
