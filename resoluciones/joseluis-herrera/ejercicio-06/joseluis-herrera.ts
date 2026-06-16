@@ -1,5 +1,3 @@
-export {};
-
 type Equipo = {
   nombre: string;
   miembros: number;
