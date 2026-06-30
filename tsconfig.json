@@ -13,5 +13,5 @@
     "allowImportingTsExtensions": true,
     "noEmit": true
   },
-  "include": ["ejercicios/**/*.ts", "respuestas/**/*.ts"]
+  "include": ["ejercicios/**/*.ts", "intermedio/**/*.ts", "respuestas/**/*.ts"]
 }
