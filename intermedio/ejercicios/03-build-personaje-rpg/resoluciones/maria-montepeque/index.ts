@@ -54,7 +54,7 @@ const personajes: readonly Personaje[] = [
   },
   {
     id: 3,
-    name: "Rasha",
+    nombre: "Rasha",
     clase: "arquero",
     nivel: 10,
     atributos: { fuerza: 12, destreza: 26, inteligencia: 10, vitalidad: 16 },
@@ -68,7 +68,7 @@ const personajes: readonly Personaje[] = [
     atributos: { fuerza: 18, destreza: 10, inteligencia: 4, vitalidad: 20 },
     equipo: { arma: "Espada Corta", armadura: "Cota de Malla", bonusPoder: 5 },
   },
-] as any; 
+];
 
 const pesosPorClase: Record<ClasePersonaje, Atributos> = {
   guerrero: { fuerza: 1.5, destreza: 0.8, inteligencia: 0.3, vitalidad: 1.2 },
