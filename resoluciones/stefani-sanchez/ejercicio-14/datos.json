@@ -1,0 +1,5 @@
+[
+  { "id": 1, "titulo": "Blade Runner 2049", "genero": "ciencia ficcion", "rating": 4.8 },
+  { "id": 2, "titulo": "Rush: Pasion y Gloria", "genero": "deportes", "rating": 4.5 },
+  { "id": 3, "titulo": "Mad Max: Furia en el Camino", "genero": "accion", "rating": 4.7 }
+]
