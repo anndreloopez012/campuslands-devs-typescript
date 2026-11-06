@@ -1,0 +1,6 @@
+[
+  { "ciudad": "Kioto", "pais": "Japon", "presupuestoUsd": 550, "actividades": ["Templos", "Jardines Zen", "Ceremonia del te"] },
+  { "ciudad": "Reykjavik", "pais": "Islandia", "presupuestoUsd": 950, "actividades": ["Auroras boreales", "Aguas termales", "Glaciares"] },
+  { "ciudad": "Medellin", "pais": "Colombia", "presupuestoUsd": 380, "actividades": ["Comuna 13", "Guatape", "Cafe tour"] },
+  { "ciudad": "Cusco", "pais": "Peru", "presupuestoUsd": 420, "actividades": ["Machu Picchu", "Valle Sagrado", "Gastronomia"] }
+]
