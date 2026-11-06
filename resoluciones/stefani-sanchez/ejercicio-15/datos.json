@@ -1,0 +1,5 @@
+[
+  { "id": "RPG-01", "nombre": "Aria", "clase": "Maga", "nivel": 10, "puntosVida": 120, "inventario": ["Baston Cosmico", "Tomo Arcano"] },
+  { "id": "RPG-02", "nombre": "Gareth", "clase": "Guerrero", "nivel": 14, "puntosVida": 210, "inventario": ["Hacha Doble", "Peto de Hierro"] },
+  { "id": "RPG-03", "nombre": "Sylas", "clase": "Asesino", "nivel": 12, "puntosVida": 135, "inventario": ["Daga Envenenada", "Manto Sombrío"] }
+]
