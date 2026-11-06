@@ -1,0 +1,13 @@
+services:
+  campuslands-package:
+    build:
+      context: .
+      dockerfile: Dockerfile.package
+      args:
+        REPOSITORY_NAME: campuslands-devs-typescript
+        REPOSITORY_URL: https://github.com/anndreloopez012/campuslands-devs-typescript
+    image: ghcr.io/anndreloopez012/campuslands-devs-typescript:local
+    container_name: campuslands-devs-typescript-docs
+    ports:
+      - "8080:80"
+    restart: unless-stopped
