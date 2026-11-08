@@ -1,6 +1,5 @@
-// ============================================================================
+
 // 1. MODELADO DEL DOMINIO (Tipos, Interfaces y Discriminados)
-// ============================================================================
 
 export type RarezaItem = 'Común' | 'Raro' | 'Épico' | 'Legendario' | 'Mítico';
 export type CategoriaItem = 'Arma' | 'Munición' | 'Curación' | 'Escudo' | 'Táctica';
@@ -11,7 +10,7 @@ export interface BaseItem {
     readonly nombre: string;
     readonly categoria: CategoriaItem;
     readonly rareza: RarezaItem;
-    readonly pesoUnitario: number; // Peso en kilogramos o unidades de inventario
+    readonly pesoUnitario: number;
     readonly stackMaximo: number;
 }
 
@@ -73,9 +72,7 @@ export type ResultadoValidacion<T> =
     | { readonly esValido: true; readonly datos: T }
     | { readonly esValido: false; readonly errores: readonly string[] };
 
-// ============================================================================
 // 2. HELPER FUNCTIONS Y VALIDACIONES DE DOMINIO
-// ============================================================================
 
 export function obtenerCantidadItem(item: ItemInventario): number {
     return 'cantidad' in item ? item.cantidad : 1;
@@ -131,9 +128,7 @@ export function validarMochila(mochila: MochilaTactica): ResultadoValidacion<Moc
         : { esValido: false, errores };
 }
 
-// ============================================================================
 // 3. TRANSFORMACIÓN Y CÁLCULOS TÁCTICOS
-// ============================================================================
 
 const JERARQUIA_RAREZA: Record<RarezaItem, number> = {
     'Común': 1,
@@ -216,9 +211,7 @@ export function procesarInventario(idJugador: string, mochilaRaw: MochilaTactica
     };
 }
 
-// ============================================================================
 // 4. PRESENTACIÓN Y SALIDA POR CONSOLA
-// ============================================================================
 
 export function mostrarResumenInventario(resumen: ResumenInventario, tituloCaso: string): void {
     console.log(`\n======================================================================`);
@@ -251,9 +244,7 @@ export function mostrarResumenInventario(resumen: ResumenInventario, tituloCaso:
     );
 }
 
-// ============================================================================
 // 5. CASOS DE PRUEBA (Caso Normal y Caso Límite)
-// ============================================================================
 
 // --- CASO 1: Loadout Competitivo Balanceado (Caso Normal) ---
 const inventarioNormal: MochilaTactica = {
@@ -342,7 +333,7 @@ const inventarioLimite: MochilaTactica = {
             stackMaximo: 2,
             puntosRestaurados: 100,
             tiempoUsoSegundos: 6,
-            cantidad: 2 // 7.0 kg extra (Suma 19.0 kg > 15.0 kg -> Sobrecargado)
+            cantidad: 2 
         },
         {
             id: 'item-8',
@@ -352,14 +343,14 @@ const inventarioLimite: MochilaTactica = {
             pesoUnitario: 0.02,
             stackMaximo: 50,
             calibre: '9mm',
-            cantidad: 150 // Supera el stack máximo de 50
+            cantidad: 150 
         },
         {
             id: 'item-9',
             nombre: 'Granada Defectuosa',
             categoria: 'Táctica',
             rareza: 'Común',
-            pesoUnitario: -1.0, // Peso negativo inválido
+            pesoUnitario: -1.0, 
             stackMaximo: 5,
             alcanceMetros: 10,
             durabilidadUso: 1,
