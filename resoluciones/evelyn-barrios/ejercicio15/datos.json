@@ -1,0 +1,5 @@
+[
+    { "id": "P-01", "nombre": "Lyra", "clase": "Maga", "nivel": 8, "puntosVida": 90 },
+    { "id": "P-02", "nombre": "Roth", "clase": "Guerrero", "nivel": 11, "puntosVida": 145 },
+    { "id": "P-03", "nombre": "Sena", "clase": "Arquera", "nivel": 7, "puntosVida": 95 }
+  ]
