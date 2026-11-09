@@ -436,3 +436,4 @@ mostrarResumenRuta(resumenNormal, 'Caso Normal - Ruta Colonial Antigua Guatemala
 const servicioLimite = new ServicioGestionRutaTuristica(itinerarioLimiteCorrupto);
 const resumenLimite = servicioLimite.procesarRuta();
 mostrarResumenRuta(resumenLimite, 'Caso Límite - Exceso de Tiempo y Datos Corruptos');
+
