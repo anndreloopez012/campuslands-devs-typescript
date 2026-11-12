@@ -4,7 +4,6 @@ export {};
 // Contexto: Videojuegos Shooter
 
 // TODO: declara las variables tipadas del jugador.
-// nombre, arma principal, municion disponible y si tiene escudo activo. Muestra un resumen por consola.
 const nombre: string = "TheMarine47";
 let armaPrincipal: string = "Sniper";
 let municionDisponible: number = 30;
