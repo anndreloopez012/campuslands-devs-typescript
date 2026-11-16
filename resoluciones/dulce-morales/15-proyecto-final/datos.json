@@ -1,0 +1,49 @@
+[
+  {
+    "id": "P-01",
+    "nombre": "Lyra",
+    "clase": "Maga",
+    "nivel": 8,
+    "puntosVida": 90,
+    "inventario": [
+      { "id": "I-01", "nombre": "Baston de cristal", "rareza": "epico", "poderBase": 30 }
+    ]
+  },
+  {
+    "id": "P-02",
+    "nombre": "Roth",
+    "clase": "Guerrero",
+    "nivel": 11,
+    "puntosVida": 145,
+    "inventario": [
+      { "id": "I-02", "nombre": "Espada larga", "rareza": "raro", "poderBase": 40 },
+      { "id": "I-03", "nombre": "Escudo de roble", "rareza": "comun", "poderBase": 15 }
+    ]
+  },
+  {
+    "id": "P-03",
+    "nombre": "Sena",
+    "clase": "Arquera",
+    "nivel": 7,
+    "puntosVida": 95,
+    "inventario": [
+      { "id": "I-04", "nombre": "Arco elfico", "rareza": "legendario", "poderBase": 25 }
+    ]
+  },
+  {
+    "id": "P-04",
+    "nombre": "Bram",
+    "clase": "Nigromante",
+    "nivel": 9,
+    "puntosVida": 80,
+    "inventario": []
+  },
+  {
+    "id": "P-05",
+    "nombre": "Ivo",
+    "clase": "Guerrero",
+    "nivel": -2,
+    "puntosVida": 100,
+    "inventario": []
+  }
+]
