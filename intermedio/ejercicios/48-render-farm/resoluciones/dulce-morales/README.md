@@ -58,7 +58,7 @@ La simulacion trabaja en minutos desde las 20:00 del 16/11/2026. Para mostrar la
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/48-render-farm/index.ts
+npm run dev -- intermedio/ejercicios/48-render-farm/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
