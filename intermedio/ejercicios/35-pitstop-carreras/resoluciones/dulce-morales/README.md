@@ -56,7 +56,7 @@ El programa valida cada estrategia, simula su tiempo total y recomienda la mejor
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/35-pitstop-carreras/index.ts
+npm run dev -- intermedio/ejercicios/35-pitstop-carreras/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
