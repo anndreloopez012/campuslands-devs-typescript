@@ -45,7 +45,7 @@ Funciona con cualquier contenido que tenga generos, clasificacion y popularidad.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/39-streaming-peliculas/index.ts
+npm run dev -- intermedio/ejercicios/39-streaming-peliculas/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
