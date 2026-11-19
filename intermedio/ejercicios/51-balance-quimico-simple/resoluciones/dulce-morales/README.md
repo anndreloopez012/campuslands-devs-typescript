@@ -52,7 +52,7 @@ Tres clases que extienden `Error`, cada una con datos propios:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/51-balance-quimico-simple/index.ts
+npm run dev -- intermedio/ejercicios/51-balance-quimico-simple/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
