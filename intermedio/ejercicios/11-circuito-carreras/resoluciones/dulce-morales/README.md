@@ -40,7 +40,7 @@ Con los tiempos de cada vuelta de cada piloto, reconstruir la carrera: posicione
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/11-circuito-carreras/index.ts
+npm run dev -- intermedio/ejercicios/11-circuito-carreras/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
