@@ -47,7 +47,7 @@ Un cine club tiene un catalogo de peliculas de terror con resenas. El programa c
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/14-catalogo-terror/index.ts
+npm run dev -- intermedio/ejercicios/14-catalogo-terror/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
