@@ -58,7 +58,7 @@ Se rechaza una puja si:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/34-subasta-autos-lujo/index.ts
+npm run dev -- intermedio/ejercicios/34-subasta-autos-lujo/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
