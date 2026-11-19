@@ -49,7 +49,7 @@ La ficha y las resenas se piden en paralelo. Si un servicio falla, se usa lo que
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/59-comparador-autos/index.ts
+npm run dev -- intermedio/ejercicios/59-comparador-autos/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
