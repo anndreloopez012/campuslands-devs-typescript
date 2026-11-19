@@ -59,7 +59,7 @@ Una agencia ofrece paquetes turisticos y cada grupo de viajeros tiene sus propia
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/20-paquetes-turisticos/index.ts
+npm run dev -- intermedio/ejercicios/20-paquetes-turisticos/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
