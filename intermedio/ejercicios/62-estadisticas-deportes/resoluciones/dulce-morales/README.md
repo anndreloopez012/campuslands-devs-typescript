@@ -57,7 +57,7 @@ Uso una funcion auxiliar `con(lado, valor)` para cambiar el puntaje de un solo l
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/62-estadisticas-deportes/index.ts
+npm run dev -- intermedio/ejercicios/62-estadisticas-deportes/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
