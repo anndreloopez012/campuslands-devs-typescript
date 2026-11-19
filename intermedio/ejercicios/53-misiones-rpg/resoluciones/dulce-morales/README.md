@@ -49,7 +49,7 @@ Al completar misiones se gana experiencia, y cada 300 xp el grupo sube de nivel.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/53-misiones-rpg/index.ts
+npm run dev -- intermedio/ejercicios/53-misiones-rpg/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
