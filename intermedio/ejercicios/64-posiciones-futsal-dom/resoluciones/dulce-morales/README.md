@@ -62,7 +62,7 @@ Los ejercicios se ejecutan con Node, sin navegador. Por eso los clics y el texto
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/64-posiciones-futsal-dom/index.ts
+npm run dev -- intermedio/ejercicios/64-posiciones-futsal-dom/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
