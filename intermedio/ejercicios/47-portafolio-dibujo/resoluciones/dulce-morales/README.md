@@ -60,7 +60,7 @@ Uso `Date` para la creacion y la publicacion. Los dias transcurridos se calculan
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/47-portafolio-dibujo/index.ts
+npm run dev -- intermedio/ejercicios/47-portafolio-dibujo/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
