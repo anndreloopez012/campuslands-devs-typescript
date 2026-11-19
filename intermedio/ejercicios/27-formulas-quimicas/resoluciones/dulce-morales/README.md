@@ -58,7 +58,7 @@ Se suman los atomos de cada lado (coeficiente x formula). Si algun elemento no t
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/27-formulas-quimicas/index.ts
+npm run dev -- intermedio/ejercicios/27-formulas-quimicas/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
