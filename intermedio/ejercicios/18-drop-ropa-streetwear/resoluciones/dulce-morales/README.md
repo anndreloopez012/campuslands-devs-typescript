@@ -55,7 +55,7 @@ Al final muestra un reporte de ventas.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/18-drop-ropa-streetwear/index.ts
+npm run dev -- intermedio/ejercicios/18-drop-ropa-streetwear/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
