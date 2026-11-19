@@ -54,7 +54,7 @@ El servicio cuenta cuantas consultas hay en curso y guarda el maximo: queda en *
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/60-garaje-lujo/index.ts
+npm run dev -- intermedio/ejercicios/60-garaje-lujo/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
