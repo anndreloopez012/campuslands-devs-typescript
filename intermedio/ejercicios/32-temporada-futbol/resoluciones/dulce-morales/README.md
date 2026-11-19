@@ -46,7 +46,7 @@ En el modo carrera diriges un club durante una temporada de 12 partidos. Cada pa
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/32-temporada-futbol/index.ts
+npm run dev -- intermedio/ejercicios/32-temporada-futbol/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
