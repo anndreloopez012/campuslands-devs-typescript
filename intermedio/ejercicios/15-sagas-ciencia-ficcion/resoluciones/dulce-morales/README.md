@@ -51,7 +51,7 @@ Un club de fans quiere comparar sagas de ciencia ficcion. Las sagas son inventad
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/15-sagas-ciencia-ficcion/index.ts
+npm run dev -- intermedio/ejercicios/15-sagas-ciencia-ficcion/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
