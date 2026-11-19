@@ -50,7 +50,7 @@ ademas de orden, paginacion y los contadores ("facetas") que aparecen junto a ca
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/73-tienda-ropa-filtros/index.ts
+npm run dev -- intermedio/ejercicios/73-tienda-ropa-filtros/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
