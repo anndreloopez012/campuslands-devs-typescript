@@ -55,7 +55,7 @@ Cada inspeccion tiene un `Date`. La ventana de 30 dias se calcula restando milis
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/50-inspeccion-soldadura/index.ts
+npm run dev -- intermedio/ejercicios/50-inspeccion-soldadura/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
