@@ -54,7 +54,7 @@ Al final muestra el gasto por dia y por categoria.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/19-itinerario-viaje/index.ts
+npm run dev -- intermedio/ejercicios/19-itinerario-viaje/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
