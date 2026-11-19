@@ -50,7 +50,7 @@ salto y el clima del dia, y despues armar los vuelos del avion (loads) sin pasar
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/76-paracaidismo-checkin/index.ts
+npm run dev -- intermedio/ejercicios/76-paracaidismo-checkin/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
