@@ -55,7 +55,7 @@ Una escuela de paracaidismo guarda la bitacora de saltos de sus paracaidistas. E
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/21-saltos-paracaidismo/index.ts
+npm run dev -- intermedio/ejercicios/21-saltos-paracaidismo/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
