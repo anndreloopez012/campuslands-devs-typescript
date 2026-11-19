@@ -49,7 +49,7 @@ Calcular el resultado de una pelea con el **sistema de 10 puntos**. Tres jueces 
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/10-marcador-kickboxing/index.ts
+npm run dev -- intermedio/ejercicios/10-marcador-kickboxing/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
