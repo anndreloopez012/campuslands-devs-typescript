@@ -46,7 +46,7 @@ favoritos que sobreviven a una recarga de la pagina y armar una ruta a pie que p
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/75-turismo-mapa-lista/index.ts
+npm run dev -- intermedio/ejercicios/75-turismo-mapa-lista/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
