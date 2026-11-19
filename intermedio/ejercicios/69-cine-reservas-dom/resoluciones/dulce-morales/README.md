@@ -43,7 +43,7 @@ seria un boton del DOM; aqui la sala se dibuja en consola y cada clic es un even
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/69-cine-reservas-dom/index.ts
+npm run dev -- intermedio/ejercicios/69-cine-reservas-dom/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
