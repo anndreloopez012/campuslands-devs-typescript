@@ -64,7 +64,7 @@ Ademas, cada proyecto exige ciertas vistas (fachada, sala, cocina...) y el progr
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/25-arquitectura-3d/index.ts
+npm run dev -- intermedio/ejercicios/25-arquitectura-3d/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
