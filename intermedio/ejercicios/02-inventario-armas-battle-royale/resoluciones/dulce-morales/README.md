@@ -39,7 +39,7 @@
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/02-inventario-armas-battle-royale/index.ts
+npm run dev -- intermedio/ejercicios/02-inventario-armas-battle-royale/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
