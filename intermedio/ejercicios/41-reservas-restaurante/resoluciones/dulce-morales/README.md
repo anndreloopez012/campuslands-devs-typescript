@@ -61,7 +61,7 @@ Toda la logica vive en el servicio; los datos solo se cambian por sus metodos:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/41-reservas-restaurante/index.ts
+npm run dev -- intermedio/ejercicios/41-reservas-restaurante/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
