@@ -50,7 +50,7 @@ Una etapa no puede empezar si la anterior no esta aprobada. El programa:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/24-pipeline-animacion-3d/index.ts
+npm run dev -- intermedio/ejercicios/24-pipeline-animacion-3d/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
