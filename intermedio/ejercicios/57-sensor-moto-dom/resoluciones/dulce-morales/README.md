@@ -61,7 +61,7 @@ El panel se arma y se actualiza exactamente como se haria con `document.createEl
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/57-sensor-moto-dom/index.ts
+npm run dev -- intermedio/ejercicios/57-sensor-moto-dom/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
