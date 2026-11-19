@@ -56,7 +56,7 @@ El ultimo dia del mercado de fichajes, un club negocia **varios jugadores a la v
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/56-mercado-fichajes/index.ts
+npm run dev -- intermedio/ejercicios/56-mercado-fichajes/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
