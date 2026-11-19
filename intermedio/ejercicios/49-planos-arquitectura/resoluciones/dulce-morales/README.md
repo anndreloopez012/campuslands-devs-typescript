@@ -60,7 +60,7 @@ Las disciplinas que deben revisar y las que ya firmaron son `Set<Disciplina>`.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/49-planos-arquitectura/index.ts
+npm run dev -- intermedio/ejercicios/49-planos-arquitectura/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
