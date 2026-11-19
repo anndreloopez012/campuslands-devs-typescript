@@ -64,7 +64,7 @@ En la primera version, la tabla impresa al final contaba tambien los partidos de
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/63-torneo-futbol-api/index.ts
+npm run dev -- intermedio/ejercicios/63-torneo-futbol-api/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
