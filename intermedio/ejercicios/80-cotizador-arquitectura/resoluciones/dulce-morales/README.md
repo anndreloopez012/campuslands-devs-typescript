@@ -58,7 +58,7 @@ guardar las cotizaciones con sus versiones, porque el cliente suele pedir cambio
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/80-cotizador-arquitectura/index.ts
+npm run dev -- intermedio/ejercicios/80-cotizador-arquitectura/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
