@@ -56,7 +56,7 @@ Una banda arma propuestas de *setlist* (el orden del concierto) que mezclan canc
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/38-setlist-concierto/index.ts
+npm run dev -- intermedio/ejercicios/38-setlist-concierto/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
