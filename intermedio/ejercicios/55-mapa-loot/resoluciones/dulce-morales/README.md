@@ -47,7 +47,7 @@ Con lo que si llega, la app recomienda donde caer segun el valor del loot y el r
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/55-mapa-loot/index.ts
+npm run dev -- intermedio/ejercicios/55-mapa-loot/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
