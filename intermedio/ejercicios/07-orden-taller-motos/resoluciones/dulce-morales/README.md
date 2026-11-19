@@ -50,7 +50,7 @@ Ademas se prueba el flujo de estados: saltar de "en reparacion" a "entregada" se
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/07-orden-taller-motos/index.ts
+npm run dev -- intermedio/ejercicios/07-orden-taller-motos/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
