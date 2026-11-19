@@ -51,7 +51,7 @@ Un taller de estructuras metalicas recibe ordenes de soldadura. Cada orden pide 
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/26-orden-soldadura/index.ts
+npm run dev -- intermedio/ejercicios/26-orden-soldadura/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
