@@ -46,7 +46,7 @@ Cada semana el juego regala una rotacion de heroes gratis. El programa elige los
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/04-rotacion-moba/index.ts
+npm run dev -- intermedio/ejercicios/04-rotacion-moba/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
