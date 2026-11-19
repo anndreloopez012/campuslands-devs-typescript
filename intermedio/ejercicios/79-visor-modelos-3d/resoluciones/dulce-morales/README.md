@@ -51,7 +51,7 @@ el presupuesto de cada plataforma y calcular como encuadrarlos con la camara.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/79-visor-modelos-3d/index.ts
+npm run dev -- intermedio/ejercicios/79-visor-modelos-3d/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
