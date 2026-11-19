@@ -51,7 +51,7 @@ Con 2 empatados basta ver quien gano el partido entre ellos. Pero con 3 puede fo
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/12-liga-pingpong/index.ts
+npm run dev -- intermedio/ejercicios/12-liga-pingpong/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
