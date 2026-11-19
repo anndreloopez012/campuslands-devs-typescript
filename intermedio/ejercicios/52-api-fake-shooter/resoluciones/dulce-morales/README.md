@@ -58,7 +58,7 @@ El cliente:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/52-api-fake-shooter/index.ts
+npm run dev -- intermedio/ejercicios/52-api-fake-shooter/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
