@@ -42,7 +42,7 @@ Comparar jugadores de posiciones distintas de forma justa. Un portero no mete go
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/05-ranking-futbol-pro/index.ts
+npm run dev -- intermedio/ejercicios/05-ranking-futbol-pro/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
