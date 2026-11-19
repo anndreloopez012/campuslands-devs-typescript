@@ -44,7 +44,7 @@ Armar y simular la llave de eliminacion directa de un torneo de kickboxing:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/36-bracket-kickboxing/index.ts
+npm run dev -- intermedio/ejercicios/36-bracket-kickboxing/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
