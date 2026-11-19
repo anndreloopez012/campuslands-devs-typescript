@@ -58,7 +58,7 @@ Un food truck recibe pedidos en fila. Cada platillo usa ingredientes de un inven
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/17-pedidos-foodtruck/index.ts
+npm run dev -- intermedio/ejercicios/17-pedidos-foodtruck/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
