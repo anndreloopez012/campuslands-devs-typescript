@@ -45,7 +45,7 @@ los interpreta, revisa permisos y cambia el estado de la nave y de la propia ter
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/70-sci-fi-terminal/index.ts
+npm run dev -- intermedio/ejercicios/70-sci-fi-terminal/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
