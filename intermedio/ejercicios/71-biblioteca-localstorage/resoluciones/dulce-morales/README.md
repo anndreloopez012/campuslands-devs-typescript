@@ -52,7 +52,7 @@ Arquitectura simple en capas:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/71-biblioteca-localstorage/index.ts
+npm run dev -- intermedio/ejercicios/71-biblioteca-localstorage/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
