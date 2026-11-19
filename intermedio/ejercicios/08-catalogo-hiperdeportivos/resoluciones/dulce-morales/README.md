@@ -45,7 +45,7 @@ Un concesionario de lujo quiere un catalogo que se pueda **filtrar** (presupuest
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/08-catalogo-hiperdeportivos/index.ts
+npm run dev -- intermedio/ejercicios/08-catalogo-hiperdeportivos/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
