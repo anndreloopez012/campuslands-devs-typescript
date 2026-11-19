@@ -42,7 +42,7 @@
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/03-build-personaje-rpg/index.ts
+npm run dev -- intermedio/ejercicios/03-build-personaje-rpg/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
