@@ -45,7 +45,7 @@ Durante una sesion en pista, cada moto envia lecturas de sus sensores. El progra
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/06-telemetria-motos/index.ts
+npm run dev -- intermedio/ejercicios/06-telemetria-motos/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
