@@ -62,7 +62,7 @@ Gana el de mayor puntaje; en empate, por nombre. Tambien se muestra la segunda m
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/30-draft-moba/index.ts
+npm run dev -- intermedio/ejercicios/30-draft-moba/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
