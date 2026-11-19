@@ -63,7 +63,7 @@ Asi es imposible, por ejemplo, tener una marcha mientras el auto esta detenido.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/61-simulador-hipercar/index.ts
+npm run dev -- intermedio/ejercicios/61-simulador-hipercar/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
