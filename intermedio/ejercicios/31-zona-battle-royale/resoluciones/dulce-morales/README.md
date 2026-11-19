@@ -52,7 +52,7 @@ El programa simula las fases, registra los eventos y muestra en que puesto quedo
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/31-zona-battle-royale/index.ts
+npm run dev -- intermedio/ejercicios/31-zona-battle-royale/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
