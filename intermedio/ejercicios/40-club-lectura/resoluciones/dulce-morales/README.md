@@ -51,7 +51,7 @@ Despues, con el ritmo de lectura de cada miembro, se estima quien termina el lib
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/40-club-lectura/index.ts
+npm run dev -- intermedio/ejercicios/40-club-lectura/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
