@@ -50,7 +50,7 @@ el estado cambia solo a traves de un reducer puro (no se modifica nada por fuera
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/68-reproductor-playlist/index.ts
+npm run dev -- intermedio/ejercicios/68-reproductor-playlist/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
