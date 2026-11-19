@@ -55,7 +55,7 @@ Cada pronostico tiene un `Date`. El closet calcula los dias desde el ultimo uso 
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/42-outfit-clima/index.ts
+npm run dev -- intermedio/ejercicios/42-outfit-clima/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
