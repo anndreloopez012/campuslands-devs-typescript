@@ -49,7 +49,7 @@ Armar el set de un DJ a partir de una biblioteca de canciones. El set debe durar
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/13-playlist-dj/index.ts
+npm run dev -- intermedio/ejercicios/13-playlist-dj/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
