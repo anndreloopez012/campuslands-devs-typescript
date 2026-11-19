@@ -59,7 +59,7 @@ Un mercado de skins de un shooter recibe publicaciones de venta y ordenes de com
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/28-mercado-skins/index.ts
+npm run dev -- intermedio/ejercicios/28-mercado-skins/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
