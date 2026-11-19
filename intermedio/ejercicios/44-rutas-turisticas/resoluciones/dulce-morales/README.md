@@ -53,7 +53,7 @@ Con un puntaje que solo miraba prioridad y distancia, la ruta terminaba a las 16
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/44-rutas-turisticas/index.ts
+npm run dev -- intermedio/ejercicios/44-rutas-turisticas/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
