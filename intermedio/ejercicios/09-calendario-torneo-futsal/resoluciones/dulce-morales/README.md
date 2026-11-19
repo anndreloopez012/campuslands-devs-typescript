@@ -47,7 +47,7 @@ Armar el calendario de un torneo "todos contra todos": cada equipo juega una vez
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/09-calendario-torneo-futsal/index.ts
+npm run dev -- intermedio/ejercicios/09-calendario-torneo-futsal/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
