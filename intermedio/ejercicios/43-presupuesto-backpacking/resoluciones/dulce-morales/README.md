@@ -53,7 +53,7 @@ Una mochilera recorre cuatro paises con un presupuesto total de $900. Cada pais 
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/43-presupuesto-backpacking/index.ts
+npm run dev -- intermedio/ejercicios/43-presupuesto-backpacking/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
