@@ -54,7 +54,7 @@ generar un reporte por artista.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/77-tattoo-booking-app/index.ts
+npm run dev -- intermedio/ejercicios/77-tattoo-booking-app/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
