@@ -55,7 +55,7 @@ El **factor K** (cuanto se mueve el puntaje) depende de la experiencia del jugad
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/37-ranking-pingpong-elo/index.ts
+npm run dev -- intermedio/ejercicios/37-ranking-pingpong-elo/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
