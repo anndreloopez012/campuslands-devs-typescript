@@ -58,7 +58,7 @@ Una biblioteca de libros de tecnologia presta ejemplares a sus socios. El progra
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/16-biblioteca-tech/index.ts
+npm run dev -- intermedio/ejercicios/16-biblioteca-tech/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
