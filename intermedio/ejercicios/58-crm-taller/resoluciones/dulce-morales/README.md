@@ -52,7 +52,7 @@ Los recordatorios se mandan juntos con `Promise.allSettled`, asi un correo que f
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/58-crm-taller/index.ts
+npm run dev -- intermedio/ejercicios/58-crm-taller/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
