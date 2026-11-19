@@ -50,7 +50,7 @@ Arquitectura simple en capas:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/72-menu-comida-app/index.ts
+npm run dev -- intermedio/ejercicios/72-menu-comida-app/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
