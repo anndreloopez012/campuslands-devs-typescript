@@ -54,7 +54,7 @@ Para que el resultado se pueda revisar, en vez de `Math.random()` uso un generad
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/29-loot-rpg/index.ts
+npm run dev -- intermedio/ejercicios/29-loot-rpg/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
