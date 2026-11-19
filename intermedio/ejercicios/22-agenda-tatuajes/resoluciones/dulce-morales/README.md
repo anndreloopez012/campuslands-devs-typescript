@@ -55,7 +55,7 @@ Se revisan en este orden:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/22-agenda-tatuajes/index.ts
+npm run dev -- intermedio/ejercicios/22-agenda-tatuajes/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
