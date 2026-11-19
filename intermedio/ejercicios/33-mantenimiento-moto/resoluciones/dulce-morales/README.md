@@ -49,7 +49,7 @@ Cada tarea de mantenimiento de una moto se hace cada cierto kilometraje, cada ci
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/33-mantenimiento-moto/index.ts
+npm run dev -- intermedio/ejercicios/33-mantenimiento-moto/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
