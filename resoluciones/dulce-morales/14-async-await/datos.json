@@ -1,0 +1,8 @@
+[
+  { "id": 1, "titulo": "Nebula 9", "genero": "ciencia ficcion", "rating": 4.7 },
+  { "id": 2, "titulo": "Gol Final", "genero": "deportes", "rating": 4.1 },
+  { "id": 3, "titulo": "Motores de Acero", "genero": "accion", "rating": 4.4 },
+  { "id": 4, "titulo": "Orbita Silenciosa", "genero": "ciencia ficcion", "rating": 4.2 },
+  { "id": 5, "titulo": "La Casa del Eco", "genero": "terror", "rating": 3.9 },
+  { "id": 6, "titulo": "Protocolo Marte", "genero": "ciencia ficcion", "rating": 4.8 }
+]
