@@ -54,7 +54,7 @@ Cada evento fuera de su fase devuelve un mensaje de error y deja el estado igual
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/66-cronometro-carreras/index.ts
+npm run dev -- intermedio/ejercicios/66-cronometro-carreras/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
