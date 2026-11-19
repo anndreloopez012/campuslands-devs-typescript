@@ -57,7 +57,7 @@ Uso objetos `Date`. La fecha limite de la reserva se calcula sumando 7 dias en m
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/46-catalogo-tatuajes/index.ts
+npm run dev -- intermedio/ejercicios/46-catalogo-tatuajes/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
