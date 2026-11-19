@@ -50,7 +50,7 @@ Cada `PUNTO` guarda el marcador anterior en la pila. `DESHACER` saca el ultimo y
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/67-marcador-pingpong-dom/index.ts
+npm run dev -- intermedio/ejercicios/67-marcador-pingpong-dom/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
