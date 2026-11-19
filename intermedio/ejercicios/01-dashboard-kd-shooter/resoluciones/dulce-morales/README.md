@@ -35,7 +35,7 @@
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/01-dashboard-kd-shooter/index.ts
+npm run dev -- intermedio/ejercicios/01-dashboard-kd-shooter/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
