@@ -54,7 +54,7 @@ Una ilustradora recibe pedidos de dibujos por encargo (comisiones). El programa:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/23-comisiones-dibujo/index.ts
+npm run dev -- intermedio/ejercicios/23-comisiones-dibujo/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
