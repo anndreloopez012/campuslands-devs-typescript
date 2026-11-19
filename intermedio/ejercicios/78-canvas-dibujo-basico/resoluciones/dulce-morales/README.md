@@ -51,7 +51,7 @@ canvas se simula con una matriz de caracteres donde cada caracter es un pixel.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/78-canvas-dibujo-basico/index.ts
+npm run dev -- intermedio/ejercicios/78-canvas-dibujo-basico/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
