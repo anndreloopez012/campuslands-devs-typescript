@@ -52,7 +52,7 @@ Con eso se decide su estado: **habilitado**, **requiere supervision** o **suspen
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/45-log-saltos/index.ts
+npm run dev -- intermedio/ejercicios/45-log-saltos/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
