@@ -60,7 +60,7 @@ En `main`, el `catch (e: unknown)` revisa con `instanceof` y vuelve a lanzar cua
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/54-chat-equipo-moba/index.ts
+npm run dev -- intermedio/ejercicios/54-chat-equipo-moba/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
