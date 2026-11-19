@@ -55,7 +55,7 @@ El cronometro de una pelea de kickboxing es una **maquina de estados**:
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/65-timer-kickboxing/index.ts
+npm run dev -- intermedio/ejercicios/65-timer-kickboxing/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
