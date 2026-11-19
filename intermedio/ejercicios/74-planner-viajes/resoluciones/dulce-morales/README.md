@@ -44,7 +44,7 @@ el itinerario por dia.
 ## Como ejecutarlo
 
 ```bash
-npm run dev -- resoluciones/dulce-morales/intermedio/74-planner-viajes/index.ts
+npm run dev -- intermedio/ejercicios/74-planner-viajes/resoluciones/dulce-morales/index.ts
 ```
 
 ## Salida esperada
